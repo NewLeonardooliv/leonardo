@@ -34,11 +34,6 @@ const outros: CardProps[] = [
         icon: terminal,
         link: 'https://help.ubuntu.com/kubuntu/desktopguide/pt_BR/terminals.html'
     },
-    {
-        name: 'Ubuntu',
-        icon: ubuntu,
-        link: 'https://ubuntu.com/download'
-    },
 ]
 
 export function Outros() {
