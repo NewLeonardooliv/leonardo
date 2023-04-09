@@ -20,6 +20,7 @@ import sockeio from '../assets/icons/backend/socketio.svg'
 import lumen from '../assets/icons/backend/lumen.svg'
 import babel from '../assets/icons/backend/babel.svg'
 import prisma from '../assets/icons/backend/prisma.svg'
+import terminal from '../assets/icons/backend/terminal.png'
 
 const backend: CardProps[] = [
     {
@@ -108,9 +109,14 @@ const backend: CardProps[] = [
         link: 'https://developer.mozilla.org/pt-BR/docs/Glossary/REST'
     },
     {
-        name: 'Json Api',
+        name: 'JSON Api',
         icon: json,
         link: 'https://www.devmedia.com.br/o-que-e-json/23166'
+    },
+    {
+        name: 'Shell',
+        icon: terminal,
+        link: 'https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778'
     },
 ]
 
