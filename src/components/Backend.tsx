@@ -48,12 +48,12 @@ const backend: CardProps[] = [
     {
         name: 'PhpUnit',
         icon: phpunit,
-        link: 'https://github.com/PHP-CS-Fixer'
+        link: 'https://phpunit.de/'
     },
     {
         name: 'CS Fixer',
         icon: csfixer,
-        link: 'https://phpunit.de/'
+        link: 'https://github.com/PHP-CS-Fixer'
     },
     {
         name: 'Mockery.io',
