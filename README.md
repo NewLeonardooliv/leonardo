@@ -11,4 +11,4 @@ A página foi desenvolvida com o Tailwind CSS, um framework de CSS que facilita 
 ## 🔧 Tecnologias
 
 - ReactJs
-- TailWind CSS
+- Tailwind CSS
