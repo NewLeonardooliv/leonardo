@@ -1,0 +1,202 @@
+import { Title } from './components/Title';
+import { Card } from './components/Card';
+
+import laravel from './assets/icons/backend/laravel.svg'
+import javascript from './assets/icons/backend/javascript.svg'
+import typescript from './assets/icons/backend/typescript.svg'
+import mariadb from './assets/icons/backend/mariadb.svg'
+import mysql from './assets/icons/backend/mysql.svg'
+import php from './assets/icons/backend/php.svg'
+import zend from './assets/icons/backend/zendframework.svg'
+import nodejs from './assets/icons/backend/nodejs.svg'
+import postgresql from './assets/icons/backend/postgresql.svg'
+import express from './assets/icons/backend/express.svg'
+import api from './assets/icons/backend/api.svg'
+import json from './assets/icons/backend/json.svg'
+import phpunit from './assets/icons/backend/phpunit.svg'
+import mockery from './assets/icons/backend/mockery.jpg'
+import jest from './assets/icons/backend/jest.svg'
+
+import react from './assets/icons/frontend/react.svg'
+import selenium from './assets/icons/frontend/selenium.svg'
+import html from './assets/icons/frontend/html.svg'
+import css from './assets/icons/frontend/css.svg'
+import styledComponents from './assets/icons/frontend/styled-components.png'
+import jquery from './assets/icons/frontend/jquery.svg'
+import axios from './assets/icons/frontend/axios.svg'
+import tailwindcss from './assets/icons/frontend/tailwindcss.svg'
+import { SecondTitle } from './components/SecondTitle';
+
+type IconsProps = {
+	icon: string;
+	name: string;
+}
+
+function App() {
+	const languages: IconsProps[] = [
+		{
+			name: 'PHP',
+			icon: php
+		},
+		{
+			name: 'Javascript',
+			icon: javascript
+		},
+		{
+			name: 'Typescript',
+			icon: typescript
+		},
+		{
+			name: 'Node.js',
+			icon: nodejs
+		},
+	];
+
+	const test: IconsProps[] = [
+		{
+			name: 'PhpUnit',
+			icon: phpunit
+		},
+		{
+			name: 'Mockery.io',
+			icon: mockery
+		},
+		{
+			name: 'Jest',
+			icon: jest
+		},
+		{
+			name: 'Selenium',
+			icon: selenium,
+		},
+	];
+
+	const frameworks: IconsProps[] = [
+		{
+			name: 'Laravel',
+			icon: laravel
+		},
+		{
+			name: 'Zend',
+			icon: zend
+		},
+		{
+			name: 'Express.js',
+			icon: express
+		},
+		{
+			name: 'Axios',
+			icon: axios,
+		},
+	]
+
+	const backend: IconsProps[] = [
+		{
+			name: 'MariaDB',
+			icon: mariadb
+		},
+		{
+			name: 'MySql',
+			icon: mysql
+		},
+		{
+			name: 'PostgreSQL',
+			icon: postgresql
+		},
+		{
+			name: 'RestFull',
+			icon: api
+		},
+		{
+			name: 'Json Api',
+			icon: json
+		}
+	]
+
+	const frontend: IconsProps[] = [
+		{
+			name: 'Html',
+			icon: html,
+		},
+		{
+			name: 'Css',
+			icon: css,
+		},
+		{
+			name: 'Javascript',
+			icon: javascript
+		},
+		{
+			name: 'Typescript',
+			icon: typescript
+		},
+		{
+			name: 'ReactJs',
+			icon: react,
+		},
+		{
+			name: 'React Native',
+			icon: react,
+		},
+		{
+			name: 'Styled Components',
+			icon: styledComponents,
+		},
+		{
+			name: 'Jquery',
+			icon: jquery,
+		},
+		{
+			name: 'Axios',
+			icon: axios,
+		},
+		{
+			name: 'Tailwind CSS',
+			icon: tailwindcss,
+		},
+	]
+
+	return (
+		<div className='m-auto max-w-[1450px]'>
+			<Title title='Backend' />
+			<SecondTitle title='Linguagens de Programação' />
+			<div className=' flex flex-row flex-wrap'>
+				{languages.map(item => (
+					<div className='m-1'>
+						<Card name={item.name} icon={item.icon} />
+					</div>
+				))}
+			</div>
+
+			<SecondTitle title='Testes' />
+			<div className=' flex flex-row flex-wrap'>
+				{test.map(item => (
+					<div className='m-1'>
+						<Card name={item.name} icon={item.icon} />
+					</div>
+				))}
+			</div>
+
+			<SecondTitle title="Frameworks, bibliotecas e client's" />
+			<div className=' flex flex-row flex-wrap'>
+				{frameworks.map(item => (
+					<div className='m-1'>
+						<Card name={item.name} icon={item.icon} />
+					</div>
+				))}
+			</div>
+
+			<Title title='Frontend' />
+			<SecondTitle title='Estilização' />
+			<div className=' flex flex-row flex-wrap'>
+				{frontend.map(item => (
+					<div className='m-1'>
+						<Card name={item.name} icon={item.icon} />
+					</div>
+				))}
+			</div>
+		</div>
+	);
+}
+
+export default App
