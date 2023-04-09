@@ -6,7 +6,7 @@ import { Outros } from './components/Outros';
 
 function App() {
 	return (
-		<div className='m-auto max-w-[1520px] mb-48'>
+		<div className='m-auto max-w-[1520px] mb-9'>
 			<Profile />
 			<Backend />
 			<Frontend />
