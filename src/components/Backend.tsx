@@ -21,6 +21,7 @@ import lumen from '../assets/icons/backend/lumen.svg'
 import babel from '../assets/icons/backend/babel.svg'
 import prisma from '../assets/icons/backend/prisma.svg'
 import terminal from '../assets/icons/backend/terminal.png'
+import swagger from '../assets/icons/backend/swagger.svg'
 
 const backend: CardProps[] = [
     {
@@ -117,6 +118,11 @@ const backend: CardProps[] = [
         name: 'Shell',
         icon: terminal,
         link: 'https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778'
+    },
+    {
+        name: 'Swagger UI',
+        icon: swagger,
+        link: 'https://swagger.io/'
     },
 ]
 
