@@ -110,7 +110,7 @@ const backend: CardProps[] = [
         link: 'https://developer.mozilla.org/pt-BR/docs/Glossary/REST'
     },
     {
-        name: 'JSON Api',
+        name: 'JSON',
         icon: json,
         link: 'https://www.devmedia.com.br/o-que-e-json/23166'
     },
