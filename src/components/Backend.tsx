@@ -22,6 +22,7 @@ import babel from '../assets/icons/backend/babel.svg'
 import prisma from '../assets/icons/backend/prisma.svg'
 import terminal from '../assets/icons/backend/terminal.png'
 import swagger from '../assets/icons/backend/swagger.svg'
+import csfixer from '../assets/icons/backend/csfixer.png'
 
 const backend: CardProps[] = [
     {
@@ -47,6 +48,11 @@ const backend: CardProps[] = [
     {
         name: 'PhpUnit',
         icon: phpunit,
+        link: 'https://github.com/PHP-CS-Fixer'
+    },
+    {
+        name: 'CS Fixer',
+        icon: csfixer,
         link: 'https://phpunit.de/'
     },
     {
