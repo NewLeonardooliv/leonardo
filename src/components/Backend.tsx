@@ -24,79 +24,93 @@ import prisma from '../assets/icons/backend/prisma.svg'
 const backend: CardProps[] = [
     {
         name: 'PHP',
-        icon: php
+        icon: php,
+        link: 'https://www.php.net/'
     },
     {
         name: 'Laravel',
-        icon: laravel
+        icon: laravel,
+        link: 'https://laravel.com/'
     },
     {
         name: 'Lumen',
-        icon: lumen
+        icon: lumen,
+        link: 'https://lumen.laravel.com/docs/10.x'
     },
     {
         name: 'Zend',
-        icon: zend
+        icon: zend,
+        link: 'https://framework.zend.com/'
     },
     {
         name: 'PhpUnit',
-        icon: phpunit
+        icon: phpunit,
+        link: 'https://phpunit.de/'
     },
     {
         name: 'Mockery.io',
-        icon: mockery
+        icon: mockery,
+        link: 'http://docs.mockery.io/en/latest/'
     },
     {
         name: 'Javascript',
-        icon: javascript
+        icon: javascript,
+        link: 'https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript'
     },
     {
         name: 'Typescript',
-        icon: typescript
+        icon: typescript,
+        link: 'https://www.typescriptlang.org/',
     },
     {
         name: 'Node',
-        icon: nodejs
+        icon: nodejs,
+        link: 'https://nodejs.org/en'
     },
     {
         name: 'Jest',
-        icon: jest
+        icon: jest,
+        link: 'https://jestjs.io/pt-BR/'
     },
     {
         name: 'Express.js',
-        icon: express
+        icon: express,
+        link: 'https://expressjs.com/pt-br/'
     },
     {
         name: 'Socke.io',
-        icon: sockeio
+        icon: sockeio,
+        link: 'https://socket.io/'
     },
     {
         name: 'Babel',
-        icon: babel
+        icon: babel,
+        link: 'https://babeljs.io/'
     },
     {
         name: 'Prisma.io',
-        icon: prisma
-    },
-    {
-        name: 'MariaDB',
-        icon: mariadb
+        icon: prisma,
+        link: 'https://www.prisma.io/'
     },
     {
         name: 'MySql',
-        icon: mysql
+        icon: mysql,
+        link: 'https://www.mysql.com/'
     },
     {
         name: 'PostgreSQL',
-        icon: postgresql
+        icon: postgresql,
+        link: 'https://www.postgresql.org/'
     },
     {
         name: 'REST Api',
-        icon: api
+        icon: api,
+        link: 'https://developer.mozilla.org/pt-BR/docs/Glossary/REST'
     },
     {
         name: 'Json Api',
-        icon: json
+        icon: json,
+        link: 'https://www.devmedia.com.br/o-que-e-json/23166'
     },
 ]
 
@@ -105,7 +119,7 @@ export function Backend() {
         <Title title='backend' />
         <div className='flex flex-row flex-wrap'>
             {backend.map(item => (
-                <Card name={item.name} icon={item.icon} />
+                <Card name={item.name} icon={item.icon} link={item.link} />
             ))}
         </div>
         <h1 className="text-white font-medium text-4xl mt-6">{'}'}</h1>
