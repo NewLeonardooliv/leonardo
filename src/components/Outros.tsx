@@ -30,7 +30,7 @@ const outros: CardProps[] = [
         link: 'https://4linux.com.br/o-que-e-linux/'
     },
     {
-        name: 'Terminal',
+        name: 'Shell',
         icon: terminal,
         link: 'https://help.ubuntu.com/kubuntu/desktopguide/pt_BR/terminals.html'
     },
