@@ -5,7 +5,7 @@ import { Outros } from './components/Outros';
 
 function App() {
 	return (
-		<div className='m-auto max-w-[1520px] mb-9'>
+		<div className='max-w-[100rem] mx-auto px-4 sm:px-6 md:px-8'>
 			<Profile />
 			<Backend />
 			<Frontend />
