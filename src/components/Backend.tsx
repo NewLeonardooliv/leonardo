@@ -86,7 +86,7 @@ const backend: CardProps[] = [
         link: 'https://expressjs.com/pt-br/'
     },
     {
-        name: 'Socke.io',
+        name: 'Socket.io',
         icon: sockeio,
         link: 'https://socket.io/'
     },
