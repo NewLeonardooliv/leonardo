@@ -8,8 +8,9 @@ export function Profile() {
     return (
         <div className="flex flex-col md:flex-row my-9 mx-1 bg-current-line rounded-lg overflow-hidden">
             <div className="md:flex-1 p-6 m-3">
-                <h2 className="text-3xl font-bold text-white mb-2">Leonardo Oliveira</h2>
-                <p className="text-white text-xl mb-4 md:mb-6">Meu nome é Leonardo Oliveira e sou um desenvolvedor Full Stack com experiência em sistemas web usando PHP e Javascript. Atualmente, estou cursando Engenharia de Software na Universidade de Rio Verde. Como desenvolvedor, busco sempre aprender e aplicar as melhores práticas de desenvolvimento de software para garantir a qualidade e eficiência das soluções que crio.</p>
+                <h2 className="text-4xl font-bold text-white mb-2">Leonardo Oliveira</h2>
+                <h3 className="text-2xl font-normal mb-5 text-white">Desenvolvedor Full Stack</h3>
+                <p className="text-white text-xl mb-4 md:mb-6">Tenho experiência em sistemas web usando PHP e Javascript. Atualmente, estou cursando Engenharia de Software na Universidade de Rio Verde. Como desenvolvedor, busco sempre aprender e aplicar as melhores práticas de desenvolvimento de software para garantir a qualidade e eficiência das soluções que crio.</p>
                 <div className='flex flex-wrap'>
                     <a href="https://www.linkedin.com/in/leonardooliv/" target='__blank'>
                         <div className="hover:drop-shadow-2xl transition-all m-1 w-40 h-40 bg-current-line rounded-lg cursor-pointer">
