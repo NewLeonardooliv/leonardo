@@ -3,6 +3,9 @@ import computer from '../assets/images/computer.png'
 import linkedin from '../assets/icons/SocialMedia/linkedin.svg'
 import github from '../assets/icons/SocialMedia/github.svg'
 import instagram from '../assets/icons/SocialMedia/instagram.svg'
+import download from '../assets/icons/SocialMedia/download.svg'
+import { PDFDownloadLink } from '@react-pdf/renderer';
+import { Curriculo } from './Curriculo';
 
 export function Profile() {
     return (
@@ -36,6 +39,14 @@ export function Profile() {
                             </div>
                         </div>
                     </a>
+                    <PDFDownloadLink document={<Curriculo />} fileName='LEONARDO OLIVEIRA CURRICULO'>
+                        <div className="hover:drop-shadow-2xl transition-all m-1 w-40 h-40 bg-current-line rounded-lg cursor-pointer">
+                            <div className="flex flex-col items-center pb-6 md:pb-10 px-4 pt-4">
+                                <img className="h-14 w-14 my-3" src={download} alt="Logo do Instagram" />
+                                <h5 className="mb-1 text-xl font-medium text-white">Currículo</h5>
+                            </div>
+                        </div>
+                    </PDFDownloadLink>
                 </div>
             </div>
             <div className="md:flex-shrink-0">
