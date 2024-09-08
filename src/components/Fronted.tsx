@@ -16,6 +16,8 @@ import nest from '../assets/icons/frontend/nestjs.svg'
 import eslint from '../assets/icons/frontend/eslint.svg'
 import bootstrap from '../assets/icons/frontend/bootstrap.svg'
 import cypress from '../assets/icons/frontend/cypress.webp'
+import shadcn from '../assets/icons/frontend/shadcn.png'
+import angular from '../assets/icons/frontend/angular.png'
 
 const frontend: CardProps[] = [
     {
@@ -97,6 +99,16 @@ const frontend: CardProps[] = [
         name: 'Cypress',
         icon: cypress,
         link: 'https://www.cypress.io/'
+    },
+    {
+        name: 'shadcn/ui',
+        icon: shadcn,
+        link: 'https://ui.shadcn.com/'
+    },
+    {
+        name: 'Angular',
+        icon: angular,
+        link: 'hthttps://angular.dev/'
     },
 ]
 

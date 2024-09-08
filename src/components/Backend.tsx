@@ -29,6 +29,8 @@ import microservice from '../assets/icons/backend/microservice.png'
 import ddd from '../assets/icons/backend/ddd.webp'
 import solid from '../assets/icons/backend/solid.png'
 import designpatterns from '../assets/icons/backend/designpatterns.png'
+import jwt from '../assets/icons/backend/jwt.svg'
+import rust from '../assets/icons/backend/rust.png'
 
 
 const backend: CardProps[] = [
@@ -166,6 +168,16 @@ const backend: CardProps[] = [
         name: 'Patterns',
         icon: designpatterns,
         link: 'https://refactoring.guru/design-patterns'
+    },
+    {
+        name: 'JWT',
+        icon: jwt,
+        link: 'https://jwt.io/'
+    },
+    {
+        name: 'Rust',
+        icon: rust,
+        link: 'https://www.rust-lang.org/pt-BR'
     },
 ]
 
