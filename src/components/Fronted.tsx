@@ -15,6 +15,7 @@ import vite from '../assets/icons/frontend/vite.svg'
 import nest from '../assets/icons/frontend/nestjs.svg'
 import eslint from '../assets/icons/frontend/eslint.svg'
 import bootstrap from '../assets/icons/frontend/bootstrap.svg'
+import cypress from '../assets/icons/frontend/cypress.webp'
 
 const frontend: CardProps[] = [
     {
@@ -91,6 +92,11 @@ const frontend: CardProps[] = [
         name: 'Eslint',
         icon: eslint,
         link: 'https://eslint.org/'
+    },
+    {
+        name: 'Cypress',
+        icon: cypress,
+        link: 'https://www.cypress.io/'
     },
 ]
 
